@@ -1,4 +1,4 @@
-Example 1: Adding Contacts
+# Example 1: Adding Contacts
 
 > Add_Contact 123456789 John
 Contact added successfully.
@@ -12,7 +12,7 @@ Contact already exists.
 > Add_Contact 000000000 Invalid
 Error: Number must be a positive 9-digit number
 
-Example 2: Removing Contacts
+# Example 2: Removing Contacts
 
 > Add_Contact 111222333 Mary
 Contact added successfully.
@@ -26,7 +26,7 @@ Contact not found.
 > RemoveContact 000000000 Invalid
 Error: Number must be a positive 9-digit number
 
-Example 3: Searching for Contacts
+# Example 3: Searching for Contacts
 
 > Add_Contact 222333444 Jane
 Contact added successfully.
@@ -43,7 +43,7 @@ Number: 222333444, Name: Jane
 > Search_By_Number 555666777
 Contact not found.
 
-Example 4: Updating Contact Names
+# Example 4: Updating Contact Names
 
 > Add_Contact 333444555 David
 Contact added successfully.
@@ -57,7 +57,7 @@ Number: 333444555, Name: Dave
 > Update 111111111 NewName
 Contact not found.
 
-Example 5: Listing All Contacts
+# Example 5: Listing All Contacts
 
 > Add_Contact 444555666 Eve
 Contact added successfully.
