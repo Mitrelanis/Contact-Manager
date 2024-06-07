@@ -1,10 +1,10 @@
 # Example 1: Adding Contacts
 
 Add_Contact 123456789 John
-Contact added successfully.
+>Contact added successfully.
 
 Add_Contact 987654321 Alice
-Contact added successfully.
+>Contact added successfully.
 
 Add_Contact 123456789 John
 Contact already exists.
